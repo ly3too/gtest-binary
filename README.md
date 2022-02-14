@@ -11,4 +11,5 @@ Then you can use gtest by find_package:
 ```cmake
 find_package(GTest REQUIRED PATHS ext/gtest/${CMAKE_SYSTEM_NAME} NO_DEFAULT_PATH)
 set(GTEST GTest::gtest GTest::gtest_main)
+target_link_libraries(test_exe ${GTEST})
 ```
