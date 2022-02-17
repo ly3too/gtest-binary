@@ -4,7 +4,7 @@ gtest binary build by cmake
 ## usage:
 Add this project as submodule to your project like:
 ```bash
-git add submodule git@github.com:ly3too/gtest-binary.git ext/gtest
+git submodule add git@github.com:ly3too/gtest-binary.git ext/gtest
 ```
 
 Then you can use gtest by find_package:
