@@ -1,5 +1,5 @@
-libdir=C:/cygwin64/home/ly3too/code/googletest/build2/dst/lib
-includedir=C:/cygwin64/home/ly3too/code/googletest/build2/dst/include
+libdir=C:/cygwin64/home/ly3too/code/googletest/build/dst/lib
+includedir=C:/cygwin64/home/ly3too/code/googletest/build/dst/include
 
 Name: gtest_main
 Description: GoogleTest (with main() function)
